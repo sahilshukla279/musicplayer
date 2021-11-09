@@ -284,6 +284,7 @@ input[type="checkbox"]{
         visibility:hidden;
     }
     #footer .icons a{
+        width:20px;
         display: none;
     }
 }
@@ -306,6 +307,18 @@ input[type="checkbox"]{
         margin-left: 20px;
 
     }
+    
+    #footer p{
+        visibility: hidden;
+    }
+    #footer .icons a{
+        width:20px;
+        display: block;
+    }
+
+    #footer h2{
+        font-size:14px;
+    }
 }
 
 @media only screen and (min-width: 375px){
@@ -319,6 +332,13 @@ input[type="checkbox"]{
         margin-left: 20px;
 
     }
+    
+    #footer p{
+        visibility: hidden;
+    }
+    #footer .icons a{
+        display: block;
+    }
 }
 
 @media only screen and (min-width: 411px){
@@ -330,6 +350,13 @@ input[type="checkbox"]{
     .image{
         width: 175px;
         height: 175px;
+    }
+    
+    #footer p{
+        visibility: hidden;
+    }
+    #footer .icons a{
+        display: block;
     }
 }
 
@@ -351,6 +378,13 @@ input[type="checkbox"]{
         width: 300px;
         margin-left: 50px;
 
+    }
+    
+    #footer p{
+        visibility: visible;
+    }
+    #footer .icons a{
+        display: block;
     }
 }
 
@@ -445,9 +479,8 @@ input[type="checkbox"]{
     .progress{
         padding: 0px 0;
     }
-
     #footer p{
-        visibility: hidden;
+        visibility: visible;
     }
     #footer .icons a{
         display: block;
